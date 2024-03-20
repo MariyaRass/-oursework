@@ -13,6 +13,7 @@ public class Emplouee {
        this.departament=departament;
     }
 
+
     public void setDepartament(int departament) {
         this.departament = departament;
     }
@@ -31,6 +32,10 @@ public class Emplouee {
 
     public int getDepartament() {
         return departament;
+    }
+    @Override
+    public String toString(){
+        return "id="+id+", ФИО="+fullName+"/" + ", ЗП="+salary+", отдел="+departament;
     }
 
 }
