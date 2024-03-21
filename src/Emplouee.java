@@ -13,7 +13,6 @@ public class Emplouee {
        this.departament=departament;
     }
 
-
     public void setDepartament(int departament) {
         this.departament = departament;
     }
